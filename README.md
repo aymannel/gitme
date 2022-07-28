@@ -25,7 +25,7 @@ gitme revert [name of obsidian file]
 gitme revert [name of obsidian file] n
 ```
 
-###### NOTE -- Must be in project directory.
+###### NOTE -- MUST BE IN PROJECT DIRECTORY.
 
 ## FEATURES
 * Easily edit README files, with preview functionality, in Obsidian.
