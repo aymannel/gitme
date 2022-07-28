@@ -3,9 +3,7 @@
 ![obsidian](img/obsidian.png)
 
 ## DESCRIPTION
-Maintaining your README files in an Obsidian is easier! First of all, all of your README files are in one place
-
-It also makes editing `README.md` files very easy by providing a way to toggle (**⌘+E**) between a view of the raw markup, and the rendered `README.md` file. With the `gitme` command, maintaining source copies of all your github READMEs in a single Obsidian vault becomes very easy.
+Obsidian is pretty. It also makes editing `README.md` files very easy by providing a way to toggle (**⌘+E**) between a view of the raw markup, and the rendered `README.md` file. With the `gitme` command, maintaining source copies of all your github READMEs in a single Obsidian vault becomes very easy.
 
 At the heart of GitMe is a shell script that updates the `README.md` file in the current directory with a file in your Obsidian Vault. Gitme also acts as a git wrapper, and will `git add`, `git commit` and `git push` your `README.md` file after updating it.
 
