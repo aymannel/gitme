@@ -1,4 +1,4 @@
-# GitMe - Maintaining Your github README files in an Obsidian Vault (beta)
+# GitMe - Maintain Github README files in an Obsidian Vault hello
 
 ## DESCRIPTION
 Obsidian is pretty. It also makes editing `README.md` files very easy by providing a way of toggling (**⌘+E**) between a view of the raw, and rendered, `README.md` file. With the `gitme` command, maintaining source copies of all your github READMEs in a single Obsidian vault becomes very easy.
@@ -25,4 +25,4 @@ gitme pull [project name]
 
 ## INSTALLATION
 1. Copy gitme.zsh script to '/choose/dir/' 
-3. Change permission of zsh script `sudo chmod +x scriptname.sh`
+3. Change permission of zsh script `sudo chmod +x gitme.zsh`
