@@ -10,21 +10,22 @@ At the heart of GitMe is a shell script that updates the `README.md` file in the
 A different aspect of the shell script allows you to revert to previous versions of a README file by `git ` specifying how many commits back to revert to.
 
 ## USAGE
-Use the following to update your README edited in Obsidian.
+##### Update README edited in Obsidian
 ```bash
-cd /path/to/project/
-gitme update 'name of README file in Obsidian'
+gitme update [name of obsidian file]
 ```
 
-Whilst you can revert back to the most recent version of a given README file, by typing;
+##### Revert back to most recent version of README
 ```bash
-gitme revert
+gitme revert [name of obsidian file]
 ```
 
-Or to a specific number of commits ago with;
+##### Revert n commits back
 ```bash
-gitme revert --times 5
+gitme revert [name of obsidian file] n
 ```
+
+###### NOTE -- Must be in project directory.
 
 ## FEATURES
 * Easily edit README files, with preview functionality, in Obsidian.
