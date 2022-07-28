@@ -11,12 +11,17 @@ At the heart of GitMe is a shell script that updates the `README.md` file in the
 Use the following to update your README edited in Obsidian.
 ```bash
 cd /path/to/project/
-gitme push 'name of README file in Obsidian'
+gitme update 'name of README file in Obsidian'
 ```
 
 Whilst you can revert back to the most recent version of a given README file, by typing;
 ```bash
-gitme pull [project name]
+gitme revert
+```
+
+Or to a specific number of commits ago with;
+```bash
+gitme revert --times 5
 ```
 
 ## FEATURES
