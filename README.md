@@ -23,6 +23,6 @@ gitme pull [project name]
 * Revert back to most recent version of README.
 * Update either one or all READMe files.
 
-### INSTALLATION
+## INSTALLATION
 1. Copy gitme.zsh script to '/choose/dir/' 
 3. Change permission of zsh script `sudo chmod +x scriptname.sh`
