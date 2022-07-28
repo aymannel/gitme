@@ -1,38 +1,31 @@
-# GitMe - Maintaining README files in Obsidian Vault
+# AutoCOSHH
 
-![obsidian](img/obsidian.png)
+![projectimage](img/autocoshh.png)
 
 ## DESCRIPTION
-Obsidian is pretty. It also makes editing `README.md` files very easy by providing a way to toggle (**⌘+E**) between a view of the raw markup, and the rendered `README.md` file. With the `gitme` command, maintaining source copies of all your github READMEs in a single Obsidian vault becomes very easy.
+AutoCOSHH is an application that attempts to eliminate the menial work involved in manually generating COSHH forms. Given a list of chemicals and their respective hazard codes, AutoCOSHH performs the logic that relates a given hazard code to its associated hazards, exposure routes and control measures. These relationships are defined in a local SQL database. The latexmk package is then used to compile a clean COSHH form in the required format (see images below).
 
-At the heart of GitMe is a shell script that updates the `README.md` file in the current directory with a file in your Obsidian Vault. Gitme also acts as a git wrapper, and will `git add`, `git commit` and `git push` your `README.md` file after updating it.
-
-A different aspect of the shell script allows you to revert to previous versions of a README file by `git ` specifying how many commits back to revert to.
-
-## USAGE
-Use the following to update your README edited in Obsidian.
-```bash
-cd /path/to/project/
-gitme update 'name of README file in Obsidian'
-```
-
-Whilst you can revert back to the most recent version of a given README file, by typing;
-```bash
-gitme revert
-```
-
-Or to a specific number of commits ago with;
-```bash
-gitme revert --times 5
-```
 
 ## FEATURES
-* Easily edit README files, with preview functionality, in Obsidian.
-* Update local README copy, then git add, commit, and push in one command.
-* Revert back to most recent version of README.
-* Update either one or all READMe files.
 
-## INSTALLATION
-1. Copy `gitme` script to `/usr/local/bin` or some other location in `$PATH`.
-2. Change permissions to make executable: `sudo chmod +x gitme`.
-3. Edit the script and change `path_obsidian='path/to/obsidian'` to the Obsidian Vault or folder containing your README files.
+* Generate hundred-page long COSHH forms in seconds
+* Specify mass, concentration, volume and other details after a double backslash
+* Automatates 'Specific Safety or Risk Implication' section
+* Large number of commonly used solvents and chemicals already specified
+* Easily add missing chemicals and their respective hazard codes to `reference.csv`
+* Randomise display order of chemicals
+
+
+## MACOS INSTALLATION
+
+1. Install Python 3 (preferably an Anaconda distribution)
+2. Clone repository to local directory `git clone https://github.com/aymannel/autocoshh.git`
+3. Create conda environment with required libraries `conda create --name autocoshh --file requirements.txt`
+4. Install [MacTeX](https://tug.org/mactex/)
+5. Install the `latexmkrc` package using TeX Live Utility
+6. Activate conda environment `conda activate autocoshh`
+7. Run application `python interface.py`
+
+
+## EXAMPLE COSHH FORM
+![projectimage](img/form.png)
