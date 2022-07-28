@@ -1,0 +1,31 @@
+##!/bin/zsh
+path_obsidian="/Users/ayman/Documents/Obsidian/Notes/READMEs/"
+
+if [ -z $1 ]
+then
+    echo "gitme: please specify either push/pull"
+
+elif [ $1 = 'push' ]
+then
+    if [ -z $2 ]
+    then
+        echo "gitme: please specify README source filename"
+
+    else
+        {
+        cp $path_obsidian$2.md $PWD/README.md
+        } && {
+        echo $2".md --> README.md"
+        git add $PWD/README.md
+        git commit -m 'updated README.md'
+        git push origin master
+        }
+    fi
+
+elif [ $1 = 'pull' ]
+then
+    echo "gitme: pull support coming"
+    
+else
+    echo "gitme: unknown argument: "$1
+fi
