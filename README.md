@@ -1,4 +1,3 @@
-# GitMe
 # Maintaining README files in Obsidian Vault
 
 ![obsidian](img/obsidian.png)
