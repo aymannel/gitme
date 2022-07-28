@@ -7,6 +7,8 @@ Obsidian is pretty. It also makes editing `README.md` files very easy by providi
 
 At the heart of GitMe is a shell script that updates the `README.md` file in the current directory with a file in your Obsidian Vault. Gitme also acts as a git wrapper, and will `git add`, `git commit` and `git push` your `README.md` file after updating it.
 
+A different aspect of the shell script allows you to revert to previous versions of a README file by `git ` specifying how many commits back to revert to.
+
 ## USAGE
 Use the following to update your README edited in Obsidian.
 ```bash

@@ -11,11 +11,15 @@ then
     then
         echo "gitme: please specify README source filename"
 
+    elif [ $2 = '--all' ]
+    then
+        echo "gitme: --all support coming"
+
     else
         {
         cp $path_obsidian$2.md $PWD/README.md
         } && {
-        echo $2".md --> README.md"
+        echo $path_obsidian$2".md --> "$PWD/"README.md"
         git add $PWD/README.md
         git commit -m 'updated README.md'
         git push origin master
