@@ -1,4 +1,4 @@
-# GitMe - Maintain Github README files in an Obsidian Vault hello
+# GitMe - Maintain Github README files in an Obsidian Vault
 
 ## DESCRIPTION
 Obsidian is pretty. It also makes editing `README.md` files very easy by providing a way of toggling (**⌘+E**) between a view of the raw, and rendered, `README.md` file. With the `gitme` command, maintaining source copies of all your github READMEs in a single Obsidian vault becomes very easy.
