@@ -11,19 +11,13 @@ It is also possible to revert to previous versions of your README file using the
 
 ## USAGE
 ##### Update README edited in Obsidian
-```bash
-gitme update [name of obsidian file]
-```
+### `gitme update [name of obsidian file]`
 
 ##### Revert back to most recent version of README
-```bash
-gitme revert [name of obsidian file]
-```
+### `gitme revert [name of obsidian file]`
 
 ##### Revert n commits back
-```bash
-gitme revert [name of obsidian file] n
-```
+### `gitme revert [name of obsidian file] n`
 
 ###### NOTE -- MUST BE IN PROJECT DIRECTORY.
 
