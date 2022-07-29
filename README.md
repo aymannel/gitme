@@ -31,10 +31,9 @@ gitme revert [name of obsidian file] n
 * Easily edit README files, with preview functionality, in Obsidian.
 * Update local README copy, then git add, commit, and push in one command.
 * Revert back to specific version of README.
-* Update either one or all README files.
 
 ## INSTALLATION
-1. Copy `gitme.zsh` script to `/usr/local/bin` or some other location in `$PATH`.
+1. Copy `gitme.zsh` script to `/usr/local/bin` or some other location.
 2. Change permissions to make executable: `sudo chmod +x gitme`.
 3. Edit the script and change `path_obsidian='path/to/obsidian'` to the Obsidian Vault or folder containing your README files.
 4. Create an alias in your shell configuration file to the `gitme.zsh` script.
