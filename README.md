@@ -10,13 +10,13 @@ At the heart of GitMe is a z-shell script that updates the `README.md` file in t
 It is also possible to revert to previous versions of your README file using the `gitme revert` command, where both copies of README on your github and Obsidian are updated accordingly.
 
 ## USAGE
-##### Update README edited in Obsidian
+### Update README edited in Obsidian
 ### `gitme update [name of obsidian file]`
 
-##### Revert back to most recent version of README
+### Revert back to most recent version of README
 ### `gitme revert [name of obsidian file]`
 
-##### Revert n commits back
+### Revert n commits back
 ### `gitme revert [name of obsidian file] n`
 
 ###### NOTE -- MUST BE IN PROJECT DIRECTORY.
