@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-path_obsidian="/Users/ayman/Documents/Obsidian/Notes/READMEs/"
+path_obsidian="/path/to/obsidian/folder"
 
 
 if [ -z $1 ]
