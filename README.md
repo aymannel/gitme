@@ -1,11 +1,11 @@
-# GitMe - Maintaining README files in Obsidian Vault
+# Gitme - Maintaining README files in Obsidian Vault
 
-![obsidian](img/obsidian.png)
+![obsidian](obsidian.png)
 
 ## DESCRIPTION
-Manage your github repos' README files with Obsidian and GitMe. By having all READMEs in one place, and with Obsidian's live markup previewer, writing and updating READMEs has never been easier! 
+Manage your github repos' README files with Obsidian and gitme. By having all READMEs in one place, and with Obsidian's live markup previewer, writing and updating READMEs has never been easier.
 
-At the heart of GitMe is a z-shell script that updates the `README.md` file in the current directory with the corresponding file in your Obsidian Vault. GitMe then acts as a git wrapper, and executes `git add`, `git commit` and `git push` your README file.
+At the heart of gitme is a z shell script that updates the `README.md` file in the current directory with the corresponding file in your Obsidian Vault. gitme then acts as a git wrapper, and executes `git add`, `git commit` and `git push` your README file.
 
 It is also possible to revert to previous versions of your README file using the `gitme revert` command, where both copies of README on your github and Obsidian are updated accordingly.
 
