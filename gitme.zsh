@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-path_obsidian="/path/to/obsidian/folder"
+path_obsidian=`cat ~/.gitmerc`
 
 
 if [ -z $1 ]
