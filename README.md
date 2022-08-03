@@ -5,7 +5,7 @@
 ## DESCRIPTION
 Manage your github repos' README files with Obsidian and gitme. By having all READMEs in one place, and with Obsidian's live markup previewer, writing and updating READMEs has never been easier.
 
-At the heart of gitme is a z shell script that updates the `README.md` file in the current directory with the corresponding file in your Obsidian Vault. gitme then acts as a git wrapper, and executes `git add`, `git commit` and `git push` your README file.
+At the heart of gitme is a z shell script that updates the `README.md` file in the current directory with the corresponding file in your Obsidian Vault. gitme then acts as a git wrapper, and executes `git add`, `git commit` and `git push` on your README file.
 
 It is also possible to revert to previous versions of your README file using the `gitme revert` command, where both copies of README on your github and Obsidian are updated accordingly.
 
