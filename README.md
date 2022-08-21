@@ -1,6 +1,6 @@
 # Gitme - Maintaining README files in Obsidian Vault
 
-![obsidian](obsidian.png)
+![obsidian](img/obsidian.png)
 
 ## DESCRIPTION
 Manage your github repos' README files with Obsidian and gitme. By having all READMEs in one place, and with Obsidian's live markup previewer, writing and updating READMEs has never been easier.
