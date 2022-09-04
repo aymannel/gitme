@@ -28,7 +28,7 @@ It is also possible to revert to previous versions of your README file using the
 
 ## INSTALLATION
 1. Create `~/.gitmerc` and add path to README folder in Obsidian.
-2. Change permissions to make Zsh script executable - `sudo chmod +x gitme`.
+2. Change permissions to make Zsh script executable - `sudo chmod +x gitme.zsh`.
 3. Run and compile Zsh script, then remove `.zsh` extension.
 4. Move `gitme` executable to `/usr/local/bin`/.
 5. Add `/usr/local/bin/` to path.
